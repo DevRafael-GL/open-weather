@@ -1,0 +1,49 @@
+.detailsContainer {
+  width: 28rem;
+  padding: 3rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(51, 51, 51, 0.562);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eee;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  gap: 1.8rem;
+}
+
+@media (max-width: 900px) {
+  .detailsContainer {
+    position: static;
+    width: 100%;
+    align-items: initial;
+  }
+}
+
+.tituloDetails {
+  width: 100%;
+  display: flex;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1.8rem;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+}
+
+.erro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.erro p {
+  font-size: 1rem;
+  color: #db0f12c4;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}

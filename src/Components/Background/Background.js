@@ -1,6 +1,7 @@
 import React from "react";
 import { ResApi } from "../Api";
 import Clima from "../Clima/Clima";
+import Details from "../Details/Details";
 import "./Background.css";
 
 const Background = () => {
@@ -8,8 +9,9 @@ const Background = () => {
   const clima = weather.weather[0].main;
   console.log(clima);
   return (
-    <div className={`${clima}`}>
+    <div className={`${clima} container responsive`}>
       <Clima />
+      <Details />
     </div>
   );
 };

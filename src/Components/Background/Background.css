@@ -16,6 +16,46 @@
   top: 0;
   left: 0;
   z-index: -100;
-  background: url(../../../public/Assets/rain.jpg) no-repeat;
+  background: url(../../../public/Assets/rain.jpg) no-repeat center center;
   background-size: cover;
+}
+
+.Clouds {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  background: url(../../../public/Assets/clouds.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.Thunderstorm {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  background: url(../../../public/Assets/thunderstorm.jpg) no-repeat center
+    center;
+  background-size: cover;
+}
+
+.Snow {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  background: url(../../../public/Assets/snow.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+  .responsive {
+    background: transparent;
+  }
 }
