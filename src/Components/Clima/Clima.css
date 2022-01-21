@@ -64,7 +64,8 @@
 
 @media (max-width: 900px) {
   .header {
-    margin: 0;
+    height: 6rem;
+    margin: 0 0 2rem 0;
   }
 
   .erro {
