@@ -82,9 +82,10 @@
   }
 
   .containerClima {
+    width: 100vw;
     height: 100vh;
     padding: 0 0.3rem 2rem;
-    background: url(../../../public/Assets/clear.jpg) center center;
+    background: url(../../../public/Assets/mobile.jpg) center center;
     background-size: cover;
   }
 
@@ -92,7 +93,7 @@
     content: "";
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: 15px;
     transform: translateX(-50%);
     width: 70px;
     height: 70px;
