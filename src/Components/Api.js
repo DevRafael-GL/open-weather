@@ -10,7 +10,7 @@ const Api = ({ children }) => {
     async function getWeather() {
       try {
         const response = await fetch(
-          `http://api.openweathermap.org/data/2.5/weather?q=${local}&appid=${process.env.REACT_APP_OPEN_WEATHER_KEY}&lang=pt_br&units=metric`
+          `https://api.openweathermap.org/data/2.5/weather?q=${local}&appid=${process.env.REACT_APP_OPEN_WEATHER_KEY}&lang=pt_br&units=metric`
         );
 
         if (response.status === 404 || response.status === 400) {
